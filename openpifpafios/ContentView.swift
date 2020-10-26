@@ -9,8 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            CameraViewController()
+                .edgesIgnoringSafeArea(.top)
+            VStack {
+                Spacer()
+                Text("hello world")
+                    .foregroundColor(.white)
+                    .frame(minWidth: 200)
+                    .padding(.horizontal)
+                    .background(
+                        RoundedRectangle(cornerRadius: /*@START_MENU_TOKEN@*/25.0/*@END_MENU_TOKEN@*/)
+                    )
+            }
+        }
     }
 }
 
