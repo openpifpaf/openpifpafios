@@ -16,6 +16,8 @@
 		B5B4E60825446B5F00B7BA85 /* openpifpafiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4E60725446B5F00B7BA85 /* openpifpafiosTests.swift */; };
 		B5B4E61325446B5F00B7BA85 /* openpifpafiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4E61225446B5F00B7BA85 /* openpifpafiosUITests.swift */; };
 		B5B4E6522544DC0000B7BA85 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4E6512544DC0000B7BA85 /* CameraViewController.swift */; };
+		B5D2BF68255F20B800536A74 /* fused9test.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B5D2BF67255F20B800536A74 /* fused9test.mlmodel */; };
+		B5D2BF6D255FFDB000536A74 /* PosePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D2BF6C255FFDB000536A74 /* PosePredictor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B5B4E61225446B5F00B7BA85 /* openpifpafiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openpifpafiosUITests.swift; sourceTree = "<group>"; };
 		B5B4E61425446B5F00B7BA85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5B4E6512544DC0000B7BA85 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B5D2BF67255F20B800536A74 /* fused9test.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = fused9test.mlmodel; sourceTree = "<group>"; };
+		B5D2BF6C255FFDB000536A74 /* PosePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosePredictor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +108,10 @@
 				B5B4E5F525446B5E00B7BA85 /* openpifpafiosApp.swift */,
 				B5B4E5F725446B5E00B7BA85 /* ContentView.swift */,
 				B53A194E255DB733004C5B20 /* PoseView.swift */,
+				B5D2BF67255F20B800536A74 /* fused9test.mlmodel */,
 				B53A1953255DB799004C5B20 /* PoseAnnotation.swift */,
 				B5B4E6512544DC0000B7BA85 /* CameraViewController.swift */,
+				B5D2BF6C255FFDB000536A74 /* PosePredictor.swift */,
 				B5B4E5F925446B5E00B7BA85 /* Assets.xcassets */,
 				B5B4E5FE25446B5E00B7BA85 /* Info.plist */,
 				B5B4E5FB25446B5E00B7BA85 /* Preview Content */,
@@ -268,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5D2BF68255F20B800536A74 /* fused9test.mlmodel in Sources */,
+				B5D2BF6D255FFDB000536A74 /* PosePredictor.swift in Sources */,
 				B5B4E5F825446B5E00B7BA85 /* ContentView.swift in Sources */,
 				B5B4E5F625446B5E00B7BA85 /* openpifpafiosApp.swift in Sources */,
 				B53A1954255DB799004C5B20 /* PoseAnnotation.swift in Sources */,
