@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		064ED10F5BE791212DB35C63 /* Pods_openpifpafios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F416A86E53A997E6EE5B40 /* Pods_openpifpafios.framework */; };
+		2BC7DFFC7409960689092DE5 /* Pods_openpifpafios_openpifpafiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D08FD38C7BFD8E6A4A3CCE /* Pods_openpifpafios_openpifpafiosUITests.framework */; };
+		3FE67CB1B77271DD7BA6A24F /* Pods_openpifpafiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B0A0427DCE75431E992816B /* Pods_openpifpafiosTests.framework */; };
+		B52B0790261607E000B22947 /* model.pt in Resources */ = {isa = PBXBuildFile; fileRef = B52B078F261607E000B22947 /* model.pt */; };
+		B52B07A426161D7D00B22947 /* TorchModule.mm in Sources */ = {isa = PBXBuildFile; fileRef = B52B07A326161D7D00B22947 /* TorchModule.mm */; };
 		B53A194F255DB733004C5B20 /* PoseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53A194E255DB733004C5B20 /* PoseView.swift */; };
 		B53A1954255DB799004C5B20 /* PoseAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53A1953255DB799004C5B20 /* PoseAnnotation.swift */; };
+		B5609AEE2616058500FCCDBD /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B5609AED2616058500FCCDBD /* Podfile */; };
 		B5B4E5F625446B5E00B7BA85 /* openpifpafiosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4E5F525446B5E00B7BA85 /* openpifpafiosApp.swift */; };
 		B5B4E5F825446B5E00B7BA85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B4E5F725446B5E00B7BA85 /* ContentView.swift */; };
 		B5B4E5FA25446B5E00B7BA85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5B4E5F925446B5E00B7BA85 /* Assets.xcassets */; };
@@ -38,8 +44,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E284680F47FD5D296EB7DA5 /* Pods-openpifpafios-openpifpafiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openpifpafios-openpifpafiosUITests.debug.xcconfig"; path = "Target Support Files/Pods-openpifpafios-openpifpafiosUITests/Pods-openpifpafios-openpifpafiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D951E21D6D7FD6B439EC796 /* Pods-openpifpafios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openpifpafios.debug.xcconfig"; path = "Target Support Files/Pods-openpifpafios/Pods-openpifpafios.debug.xcconfig"; sourceTree = "<group>"; };
+		22A2999666528D4AB4A1B429 /* Pods-openpifpafios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openpifpafios.release.xcconfig"; path = "Target Support Files/Pods-openpifpafios/Pods-openpifpafios.release.xcconfig"; sourceTree = "<group>"; };
+		41D08FD38C7BFD8E6A4A3CCE /* Pods_openpifpafios_openpifpafiosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openpifpafios_openpifpafiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0A0427DCE75431E992816B /* Pods_openpifpafiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openpifpafiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55DB7367D109BBBD9CF06F46 /* Pods-openpifpafiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openpifpafiosTests.release.xcconfig"; path = "Target Support Files/Pods-openpifpafiosTests/Pods-openpifpafiosTests.release.xcconfig"; sourceTree = "<group>"; };
+		8ABE6DD355961F54389DBB9E /* Pods-openpifpafiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openpifpafiosTests.debug.xcconfig"; path = "Target Support Files/Pods-openpifpafiosTests/Pods-openpifpafiosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8F416A86E53A997E6EE5B40 /* Pods_openpifpafios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_openpifpafios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52B078F261607E000B22947 /* model.pt */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.pt; sourceTree = "<group>"; };
+		B52B079B26160C8500B22947 /* openpifpafios-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "openpifpafios-Bridging-Header.h"; sourceTree = "<group>"; };
+		B52B07A326161D7D00B22947 /* TorchModule.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TorchModule.mm; sourceTree = "<group>"; };
+		B52B07AE26161DB100B22947 /* TorchModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TorchModule.h; sourceTree = "<group>"; };
 		B53A194E255DB733004C5B20 /* PoseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseView.swift; sourceTree = "<group>"; };
 		B53A1953255DB799004C5B20 /* PoseAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseAnnotation.swift; sourceTree = "<group>"; };
+		B5609AED2616058500FCCDBD /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B5B4E5F225446B5E00B7BA85 /* openpifpafios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = openpifpafios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B4E5F525446B5E00B7BA85 /* openpifpafiosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openpifpafiosApp.swift; sourceTree = "<group>"; };
 		B5B4E5F725446B5E00B7BA85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +74,7 @@
 		B5B4E6512544DC0000B7BA85 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		B5D2BF67255F20B800536A74 /* fused9test.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = fused9test.mlmodel; sourceTree = "<group>"; };
 		B5D2BF6C255FFDB000536A74 /* PosePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosePredictor.swift; sourceTree = "<group>"; };
+		C39F0DA57F714A075A3B802A /* Pods-openpifpafios-openpifpafiosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-openpifpafios-openpifpafiosUITests.release.xcconfig"; path = "Target Support Files/Pods-openpifpafios-openpifpafiosUITests/Pods-openpifpafios-openpifpafiosUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				064ED10F5BE791212DB35C63 /* Pods_openpifpafios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE67CB1B77271DD7BA6A24F /* Pods_openpifpafiosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,19 +98,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC7DFFC7409960689092DE5 /* Pods_openpifpafios_openpifpafiosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D6327711B55053ED18E888C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8F416A86E53A997E6EE5B40 /* Pods_openpifpafios.framework */,
+				41D08FD38C7BFD8E6A4A3CCE /* Pods_openpifpafios_openpifpafiosUITests.framework */,
+				4B0A0427DCE75431E992816B /* Pods_openpifpafiosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B52B07A226161D4E00B22947 /* TorchBridge */ = {
+			isa = PBXGroup;
+			children = (
+				B52B07A326161D7D00B22947 /* TorchModule.mm */,
+				B52B07AE26161DB100B22947 /* TorchModule.h */,
+			);
+			path = TorchBridge;
+			sourceTree = "<group>";
+		};
 		B5B4E5E925446B5E00B7BA85 = {
 			isa = PBXGroup;
 			children = (
+				B5609AED2616058500FCCDBD /* Podfile */,
 				B5B4E5F425446B5E00B7BA85 /* openpifpafios */,
 				B5B4E60625446B5F00B7BA85 /* openpifpafiosTests */,
 				B5B4E61125446B5F00B7BA85 /* openpifpafiosUITests */,
 				B5B4E5F325446B5E00B7BA85 /* Products */,
+				D3BC50851B81F548090495CF /* Pods */,
+				3D6327711B55053ED18E888C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,13 +150,16 @@
 		B5B4E5F425446B5E00B7BA85 /* openpifpafios */ = {
 			isa = PBXGroup;
 			children = (
+				B52B07A226161D4E00B22947 /* TorchBridge */,
 				B5B4E5F525446B5E00B7BA85 /* openpifpafiosApp.swift */,
+				B52B079B26160C8500B22947 /* openpifpafios-Bridging-Header.h */,
 				B5B4E5F725446B5E00B7BA85 /* ContentView.swift */,
 				B53A194E255DB733004C5B20 /* PoseView.swift */,
 				B5D2BF67255F20B800536A74 /* fused9test.mlmodel */,
 				B53A1953255DB799004C5B20 /* PoseAnnotation.swift */,
 				B5B4E6512544DC0000B7BA85 /* CameraViewController.swift */,
 				B5D2BF6C255FFDB000536A74 /* PosePredictor.swift */,
+				B52B078F261607E000B22947 /* model.pt */,
 				B5B4E5F925446B5E00B7BA85 /* Assets.xcassets */,
 				B5B4E5FE25446B5E00B7BA85 /* Info.plist */,
 				B5B4E5FB25446B5E00B7BA85 /* Preview Content */,
@@ -145,6 +193,19 @@
 			path = openpifpafiosUITests;
 			sourceTree = "<group>";
 		};
+		D3BC50851B81F548090495CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D951E21D6D7FD6B439EC796 /* Pods-openpifpafios.debug.xcconfig */,
+				22A2999666528D4AB4A1B429 /* Pods-openpifpafios.release.xcconfig */,
+				0E284680F47FD5D296EB7DA5 /* Pods-openpifpafios-openpifpafiosUITests.debug.xcconfig */,
+				C39F0DA57F714A075A3B802A /* Pods-openpifpafios-openpifpafiosUITests.release.xcconfig */,
+				8ABE6DD355961F54389DBB9E /* Pods-openpifpafiosTests.debug.xcconfig */,
+				55DB7367D109BBBD9CF06F46 /* Pods-openpifpafiosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5B4E61725446B5F00B7BA85 /* Build configuration list for PBXNativeTarget "openpifpafios" */;
 			buildPhases = (
+				E68E28639CFBBC24CC30D995 /* [CP] Check Pods Manifest.lock */,
 				B5B4E5EE25446B5E00B7BA85 /* Sources */,
 				B5B4E5EF25446B5E00B7BA85 /* Frameworks */,
 				B5B4E5F025446B5E00B7BA85 /* Resources */,
@@ -169,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5B4E61A25446B5F00B7BA85 /* Build configuration list for PBXNativeTarget "openpifpafiosTests" */;
 			buildPhases = (
+				DF598833A49CE12B7CF225EB /* [CP] Check Pods Manifest.lock */,
 				B5B4E5FF25446B5F00B7BA85 /* Sources */,
 				B5B4E60025446B5F00B7BA85 /* Frameworks */,
 				B5B4E60125446B5F00B7BA85 /* Resources */,
@@ -187,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5B4E61D25446B5F00B7BA85 /* Build configuration list for PBXNativeTarget "openpifpafiosUITests" */;
 			buildPhases = (
+				025E94A810045481A0029A06 /* [CP] Check Pods Manifest.lock */,
 				B5B4E60A25446B5F00B7BA85 /* Sources */,
 				B5B4E60B25446B5F00B7BA85 /* Frameworks */,
 				B5B4E60C25446B5F00B7BA85 /* Resources */,
@@ -212,6 +276,7 @@
 				TargetAttributes = {
 					B5B4E5F125446B5E00B7BA85 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1240;
 					};
 					B5B4E60225446B5F00B7BA85 = {
 						CreatedOnToolsVersion = 12.1;
@@ -248,6 +313,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5609AEE2616058500FCCDBD /* Podfile in Resources */,
+				B52B0790261607E000B22947 /* model.pt in Resources */,
 				B5B4E5FD25446B5E00B7BA85 /* Preview Assets.xcassets in Resources */,
 				B5B4E5FA25446B5E00B7BA85 /* Assets.xcassets in Resources */,
 			);
@@ -269,6 +336,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		025E94A810045481A0029A06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openpifpafios-openpifpafiosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF598833A49CE12B7CF225EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openpifpafiosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E68E28639CFBBC24CC30D995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-openpifpafios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5B4E5EE25446B5E00B7BA85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -277,6 +413,7 @@
 				B5D2BF68255F20B800536A74 /* fused9test.mlmodel in Sources */,
 				B5D2BF6D255FFDB000536A74 /* PosePredictor.swift in Sources */,
 				B5B4E5F825446B5E00B7BA85 /* ContentView.swift in Sources */,
+				B52B07A426161D7D00B22947 /* TorchModule.mm in Sources */,
 				B5B4E5F625446B5E00B7BA85 /* openpifpafiosApp.swift in Sources */,
 				B53A1954255DB799004C5B20 /* PoseAnnotation.swift in Sources */,
 				B5B4E6522544DC0000B7BA85 /* CameraViewController.swift in Sources */,
@@ -434,12 +571,15 @@
 		};
 		B5B4E61825446B5F00B7BA85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D951E21D6D7FD6B439EC796 /* Pods-openpifpafios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"openpifpafios/Preview Content\"";
 				DEVELOPMENT_TEAM = UCRXZ4P49M;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = openpifpafios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -449,6 +589,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.svenkreiss.openpifpafios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "openpifpafios/openpifpafios-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -456,12 +598,15 @@
 		};
 		B5B4E61925446B5F00B7BA85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22A2999666528D4AB4A1B429 /* Pods-openpifpafios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"openpifpafios/Preview Content\"";
 				DEVELOPMENT_TEAM = UCRXZ4P49M;
+				ENABLE_BITCODE = NO;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = openpifpafios/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -471,6 +616,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.svenkreiss.openpifpafios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "openpifpafios/openpifpafios-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -478,6 +624,7 @@
 		};
 		B5B4E61B25446B5F00B7BA85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ABE6DD355961F54389DBB9E /* Pods-openpifpafiosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -500,6 +647,7 @@
 		};
 		B5B4E61C25446B5F00B7BA85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55DB7367D109BBBD9CF06F46 /* Pods-openpifpafiosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -522,6 +670,7 @@
 		};
 		B5B4E61E25446B5F00B7BA85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E284680F47FD5D296EB7DA5 /* Pods-openpifpafios-openpifpafiosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +691,7 @@
 		};
 		B5B4E61F25446B5F00B7BA85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C39F0DA57F714A075A3B802A /* Pods-openpifpafios-openpifpafiosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
