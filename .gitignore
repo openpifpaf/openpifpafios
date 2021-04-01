@@ -1,2 +1,8 @@
+# xcode
+xcuserdata/
+Pods/
+
+# data
+*.pt
 *.mlmodel
 
