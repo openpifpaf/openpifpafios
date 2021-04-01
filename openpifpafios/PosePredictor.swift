@@ -8,6 +8,7 @@
 import CoreGraphics
 import CoreML
 import Foundation
+import UIKit
 import Vision
 
 class PredictorInput: MLFeatureProvider {
@@ -36,6 +37,16 @@ class PosePredictor {
     private let size = CGSize(width: 353, height: 353)
     private let stride = 8.0
     var delegate: (([Pose]) -> Void)? = nil
+
+    // EXPERIMENTAL
+    private lazy var module: TorchModule = {
+        if let filePath = Bundle.main.path(forResource: "model", ofType: "pt"),
+            let module = TorchModule(fileAtPath: filePath) {
+            return module
+        } else {
+            fatalError("Can't find the model file!")
+        }
+    }()
     
     func singlePose(_ cif: MLMultiArray) -> Pose {
         var confidences = [Double](repeating: 0.0, count: cif.shape[1].intValue)
@@ -64,6 +75,13 @@ class PosePredictor {
         guard let prediction = try? self.model.prediction(from: PredictorInput(image: image, size: self.size)) else {
             return
         }
+
+        // EXPERIMENTAL
+        var uiImage = UIImage(cgImage: image)
+        guard let outputs = module.predict(image: UnsafeMutableRawPointer(&uiImage)) else {
+            return
+        }
+        print(outputs)
 
         let cif = prediction.featureValue(for: "cif_head")!.multiArrayValue
         let pose = self.singlePose(cif!)
